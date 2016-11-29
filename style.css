@@ -248,12 +248,53 @@ input, select {
 }
 #footer{
     background-color: #ecf0f1;
-    min-height: 300px;
+    min-height: 315px;
 }
 .footnavsocial li{
     display: inline-block;
     padding: 11px 15px;
 }
+.footnavsocial li:hover a{
+    color: #1abc9c;
+    transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+}
 .footnavsocial{
     margin: 0 auto;
+}
+.latestnews li{
+    list-style: circle;
+}
+.latestnews li a{
+    display: block;
+    color: #101010;
+}
+.latestnews li a:hover{
+    text-decoration: none;
+}
+#footer hr{
+    width:50%;;
+}
+.inputform{
+    position: relative;
+    width: 216px;
+}
+.inputform input[type=email]{
+    direction: ltr;
+    padding: 10px 29px;
+    border-radius: 22px;
+    border: 2px solid #16a085;
+    color: #16a085;
+}
+.inputform i{
+    position: absolute;
+    left: -27px;
+    top: 15px;
+}
+#copyright{
+    color: #34495e;
+    font-size: 11px;
+    font-width:500;
 }
