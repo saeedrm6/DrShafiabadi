@@ -237,7 +237,6 @@ input, select {
 }
 .footnav li{
     display: inline-block;
-    float: right;
     padding: 11px 25px;
 }
 .footnav li a{
@@ -250,4 +249,11 @@ input, select {
 #footer{
     background-color: #ecf0f1;
     min-height: 300px;
+}
+.footnavsocial li{
+    display: inline-block;
+    padding: 11px 15px;
+}
+.footnavsocial{
+    margin: 0 auto;
 }
