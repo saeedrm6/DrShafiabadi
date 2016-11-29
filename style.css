@@ -1,0 +1,253 @@
+@font-face{
+    font-family: 'iransans';
+    src:url('fonts/iran-sans.woff') format('woff');
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    /*line-height:1;*/
+    direction: rtl;
+    font: 13px/25px 'iransans','Myriad Pro',Tahoma;
+    background-color: #ffffff;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+@media (max-width: 767px) {
+    .navbar-default {
+        background-color: #e6e6e6;
+    }
+    #boxes{
+        width: 100% !important;
+    }
+}
+
+.navbar-default{
+    background: #e6e6e6;
+}
+
+.navbar-header{
+    float: right;
+}
+.container-fluid{
+    padding: 17px 0;
+}
+.dropdown-menu li{
+    direction: rtl;
+    text-align: right;
+}
+#bs-example-navbar-collapse-1{
+    font-size: 14px;
+}
+.navbar-brand h1{
+    color: #95a5a6;;
+}
+#top_menu li a{
+    color: #95a5a6;
+}
+#myCarousel img{
+    width: 100%;
+    height:600px;
+}
+.item{
+    position: relative;
+}
+.details{
+    position: absolute;
+    top: -350px;
+    width: 60%;
+    left: 47px;
+}
+.details p{
+    color: #fff;;
+}
+.enter{
+    position: relative;
+}
+.pic{
+    position: absolute;
+    right: 0;
+    width: 40% !important;
+    top: -514px;
+}
+.pic img{
+    width:70% !important;
+}
+#news h2{
+    font-size: 40px;
+}
+#news ul li{
+    list-style: none;
+}
+
+#ul li{
+    list-style: none;
+    float: right;
+    box-shadow: rgb(205, 214, 227) 0px 0px 80px;
+    min-height: 300px;
+}
+#boxes{
+    box-shadow: rgb(205, 214, 227) 0px 0px 80px;
+    min-height: 300px;
+    width: 31%;
+    float: right;
+    padding: 30px;
+}
+.headtitle h2{
+    font-size: 22px !important;
+}
+.newscontent h3{
+    font-size: 18px !important;
+}
+.newscontent p:nth-child(2){
+    display: none;
+}
+.newcontrol{
+    background-image:none !important;
+}
+#aboutdr{
+    min-height: 400px;
+    background:linear-gradient(to bottom, #c8d3e1 1%, #eff2f6 99%);;
+}
+#aboutdr h2{
+    font-weight: 900;
+    font-style: bold;
+    font-size: 35px;
+}
+#aboutdr img{
+    margin-top: -40px;
+}
+#aboutdr p{
+    font-weight: 900;
+}
+#aboutdr ul li{
+    list-style: circle;
+}
+#articls{
+    min-height: 510px;
+    /*background: url('images/bg1.jpg') center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;*/
+    background: url('images/bg.jpg');
+    color: #fff;
+}
+#articls h2{
+    font-size: 40px;
+}
+#bookcase{
+    background: url('images/bookcase.png') no-repeat bottom;
+    min-height: 107px;
+}
+#books ul li{
+    list-style: none;
+    display: inline-block;
+    width: 250px;
+}
+#books p{
+    direction: ltr;
+}
+.footnav li{
+    display: inline-block;
+    float: right;
+    padding: 11px 25px;
+}
+.footnav li a{
+    color: #34495e;
+    display: block;
+}
+.footnav li a:hover{
+    text-decoration: none;
+}
+#footer{
+    background-color: #ecf0f1;
+    min-height: 300px;
+}
