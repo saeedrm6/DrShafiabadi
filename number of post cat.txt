@@ -1,0 +1,29 @@
+
+
+Thank you immensly bdbrown!
+
+After reading through your links and researching on my own for all day I was almost able to solve both questions.
+
+First I came up with the following code that works great for displaying the number of posts within a the regular category Premium Archive:
+
+<?php
+$args = array(
+    'cat' => 173
+);
+$the_query = new WP_Query( $args );
+echo $the_query->found_posts;
+?>
+
+I could also display all posts within the post type “recipe” with the following code:
+
+<?php
+$args = array(
+  'tag__in' => '146',
+  'post_type' => 'recipe'
+);
+$the_query = new WP_Query( $args );
+echo $the_query->found_posts;
+?>
+
+However I am unable to specify the recipe type as premium-recipes since WP_Query doesn’t recognize the slug ‘premium-recipes’ or tag_ID=146.
+You’ve been a great help so far, do you have any other suggestions that will allow me to specify the type of recipe that is counted?

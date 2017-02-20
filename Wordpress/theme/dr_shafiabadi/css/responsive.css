@@ -1,0 +1,260 @@
+@media screen and (min-width: 769px) and (max-width: 1198px){
+    .first_tb{
+        min-height: 165px;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+    }
+    .box{
+        display: inline-block;
+    }
+    .first_tb a img{
+        width: 82px;
+        height: 132px;
+        margin: 33px 10px;
+    }
+    .first_tb a{
+        display: inline-block;
+    }
+    .boxx{
+        display: inline-block;
+        width: 19px;
+        height: 132px;
+    }
+    .secound_tb{
+        max-height: 165px;
+        position: absolute;
+        width: 100%;
+        top: 166px;
+    }
+    .secound_tb a{
+        display: inline-block;
+    }
+    .secound_tb a img{
+        width: 82px;
+        height: 132px;
+        margin: 17px 16px;
+    }
+    .third_tb{
+        max-height: 165px;
+        position: absolute;
+        width: 100%;
+        top: 311px;
+    }
+    .third_tb a{
+        display: inline-block;
+    }
+    .third_tb a img{
+        width: 82px;
+        height: 132px;
+        margin: 17px 16px;
+    }
+    .fourth_tb{
+        max-height: 165px;
+        position: absolute;
+        width: 100%;
+        top: 461px;
+    }
+    .fourth_tb a{
+        display: inline-block;
+    }
+    .fourth_tb a img{
+        width: 82px;
+        height: 132px;
+        margin: 17px 16px;
+    }
+    .fivth_tb{
+        max-height: 165px;
+        position: absolute;
+        width: 100%;
+        top: 608px;
+    }
+    .fivth_tb a {
+        display: inline-block;
+    }
+    .fivth_tb a img{
+        width: 82px;
+        height: 132px;
+        margin: 17px 16px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 850px){}
+@media screen and (min-width: 0px) and (max-width: 766px){}
+@media screen and (min-width:1px) and (max-width: 320px) {
+    .navbar-brand h1{
+        font-size:16px;
+    }
+    #aboutdr h2 {
+        font-size: 18px;
+    }
+    #footer {
+        margin-top: -50px;
+    }
+    .first_tb a img{
+        width: 40px;
+        height: 132px;
+        margin: 33px -2px;
+    }
+    .secound_tb a img{
+        width: 40px;
+        height: 132px;
+        margin: 17px -2px;
+    }
+    .third_tb a img{
+        width: 40px;
+        height: 132px;
+        margin: 17px -2px;
+    }
+    .fourth_tb a img{
+        width: 40px;
+        height: 132px;
+        margin: 17px -2px;
+    }
+    .fivth_tb a img{
+        width: 40px;
+        height: 132px;
+        margin: 17px -2px;
+    }
+
+}
+@media screen and (min-width:360px) and (max-width: 375px){
+    #aboutdr h2 {
+        font-size: 22px;
+    }
+    .first_tb a img {
+        width: 42px;
+        height: 132px;
+        margin: 33px 0px;
+    }
+    .secound_tb a img {
+        width: 42px;
+        height: 132px;
+        margin: 17px 0px;
+    }
+    .third_tb a img {
+        width: 42px;
+        height: 132px;
+        margin: 17px 0px;
+    }
+    .fourth_tb a img {
+        width: 42px;
+        height: 132px;
+        margin: 17px 0px;
+    }
+    .fivth_tb a img {
+        width: 42px;
+        height: 132px;
+        margin: 17px 0px;
+    }
+}
+@media screen and (min-width:376px) and (max-width: 420px){
+    #aboutdr h2 {
+        font-size: 25px;
+    }
+    .first_tb a img {
+        width: 49px;
+        height: 132px;
+        margin: 33px 1px;
+    }
+    .secound_tb a img {
+        width: 49px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+    .third_tb a img {
+        width: 49px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+    .fourth_tb a img {
+        width: 49px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+    .fivth_tb a img {
+        width: 49px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+}
+@media screen and (min-width:421px) and (max-width: 481px){
+    .first_tb a img {
+        width: 60px;
+        height: 132px;
+        margin: 33px 1px;
+    }
+    .secound_tb a img {
+        width: 60px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+    .third_tb a img {
+        width: 60px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+    .fourth_tb a img {
+        width: 60px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+    .fivth_tb a img {
+        width: 60px;
+        height: 132px;
+        margin: 17px 1px;
+    }
+}
+@media screen and (min-width:482px) and (max-width: 563px){
+    .first_tb a img {
+        width: 65px;
+        height: 132px;
+        margin: 33px 6px;
+    }
+    .secound_tb a img {
+        width: 65px;
+        height: 132px;
+        margin: 17px 6px;
+    }
+    .third_tb a img {
+        width: 65px;
+        height: 132px;
+        margin: 17px 6px;
+    }
+    .fourth_tb a img {
+        width: 65px;
+        height: 132px;
+        margin: 17px 6px;
+    }
+    .fivth_tb a img {
+        width: 65px;
+        height: 132px;
+        margin: 17px 6px;
+    }
+}
+@media screen and (min-width:564px) and (max-width: 594px){
+    .first_tb a img {
+        width: 68px;
+        height: 132px;
+        margin: 33px 7px;
+    }
+    .secound_tb a img {
+        width: 68px;
+        height: 132px;
+        margin: 17px 7px;
+    }
+    .third_tb a img {
+        width: 68px;
+        height: 132px;
+        margin: 17px 7px;
+    }
+    .fourth_tb a img {
+        width: 68px;
+        height: 132px;
+        margin: 17px 7px;
+    }
+    .fivth_tb a img {
+        width: 68px;
+        height: 132px;
+        margin: 17px 7px;
+    }
+}

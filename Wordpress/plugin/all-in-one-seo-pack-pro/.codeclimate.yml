@@ -1,0 +1,58 @@
+---
+engines:
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+      - php
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  phpmd:
+    enabled: true
+    # ... CONFIG CONTENT ...
+    checks:
+      Controversial/CamelCaseClassName:
+        enabled: false
+      Controversial/CamelCasePropertyName:
+        enabled: false
+      Controversial/CamelCaseMethodName:
+        enabled: false
+      Controversial/CamelCaseParameterName:
+        enabled: false
+      Controversial/CamelCaseVariableName:
+        enabled: false
+## other configuration excluded from example...
+exclude_paths:
+- admin/*
+- admin/**/*
+- css/**/*
+- i18n/*
+- images/*
+- inc/*
+- inc/**/*
+- js/*
+- js/**/*
+- modules/*
+- modules/**/*
+- aioseop_class.php
+- all_in_one_seo_pack.php
+- init.php
+- all-in-one-seo-pack.pot
+- readme.txt
+- sitemap.xsl
+- wpml-config.xml
+ratings:
+  paths:
+  - "**.css"
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"

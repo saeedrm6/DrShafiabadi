@@ -1,0 +1,554 @@
+/*
+Theme Name: Dr Shafiabadi
+Theme URI: http://Radiobax.com/
+Author: Saeed Rahimi Manesh
+Author URI: http://Rahimimanesh.com
+Description: Dr Shafiabadi Personal Web Site
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: drshafiabadi
+Tags:
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Radio Bax is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@font-face{
+    font-family: 'iransans';
+    src:url('fonts/iran-sans.woff') format('woff');
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    /*line-height:1;*/
+    direction: rtl;
+    font: 13px/25px 'iransans','Myriad Pro',Tahoma;
+    background-color: #ffffff;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+@media (max-width: 767px) {
+    .navbar-default {
+        background-color: #e6e6e6;
+    }
+    #boxes{
+        width: 100% !important;
+    }
+}
+
+.navbar-default{
+    background: #e6e6e6;
+}
+
+.navbar-header{
+    float: right;
+}
+.container-fluid{
+    padding: 17px 0;
+}
+.dropdown-menu li{
+    direction: rtl;
+    text-align: right;
+}
+#bs-example-navbar-collapse-1{
+    font-size: 14px;
+}
+.navbar-brand h1{
+    color: #95a5a6;;
+}
+#top_menu li a{
+    color: #95a5a6;
+}
+.navbar-right li a{
+    color: #95a5a6 !important;
+}
+#myCarousel img{
+    width: 100%;
+    height:600px;
+}
+.item{
+    position: relative;
+}
+.details{
+    position: absolute;
+    top: -385px;
+    width: 60%;
+    left: 47px;
+}
+.details h3{
+    font-weight: 900;
+    color: rgba(241, 196, 15,1.0);
+}
+.details p{
+    color: #fff;;
+}
+.enter{
+    position: relative;
+}
+.pic{
+    position: absolute;
+    right: 0;
+    width: 40% !important;
+    top: -514px;
+}
+.pic img{
+    width:70% !important;
+}
+#news{
+    min-height:945px;
+}
+#news h2{
+    font-size: 40px;
+}
+#news ul li{
+    list-style: none;
+}
+
+#ul li{
+    list-style: none;
+    float: right;
+    box-shadow: rgb(205, 214, 227) 0px 0px 80px;
+    min-height: 300px;
+}
+#boxes{
+    box-shadow: rgb(205, 214, 227) 0px 0px 80px;
+    min-height: 300px;
+    width: 31%;
+    float: right;
+    padding: 30px;
+}
+.headtitle h2{
+    font-size: 22px !important;
+}
+.newscontent h3{
+    font-size: 18px !important;
+    line-height: 30px;
+    text-shadow: 2px 2px rgba(189, 195, 199,0.5);
+}
+
+.newscontent p:nth-child(2){
+    display: none;
+}
+.newcontrol{
+    background-image:none !important;
+}
+#aboutdr{
+    min-height: 400px;
+    background:linear-gradient(to bottom, #c8d3e1 1%, #eff2f6 99%);;
+}
+#aboutdr h2{
+    font-weight: 900;
+    font-style: bold;
+    font-size: 35px;
+}
+#aboutdr img{
+    margin-top: -40px;
+}
+#aboutdr p{
+    font-weight: 900;
+}
+#aboutdr ul li{
+    list-style: circle;
+}
+#articls{
+    min-height: 510px;
+    /*background: url('images/bg1.jpg') center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;*/
+    background: url('images/bg.jpg');
+    color: #fff;
+}
+#articls h2{
+    font-size: 40px;
+}
+#bookcase{
+    background: url('images/bookcase.png') no-repeat bottom;
+    min-height: 107px;
+}
+#books ul li{
+    list-style: none;
+    display: inline-block;
+    width: 250px;
+}
+#books p{
+    direction: ltr;
+}
+.footnav li{
+    display: inline-block;
+    padding: 11px 25px;
+}
+.footnav li a{
+    color: #34495e;
+    display: block;
+}
+.footnav li a:hover{
+    text-decoration: none;
+}
+#footer{
+    background-color: #ecf0f1;
+    min-height: 315px;
+}
+.footnavsocial li{
+    display: inline-block;
+    padding: 11px 15px;
+}
+.footnavsocial li:hover a{
+    color: #1abc9c;
+    transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+}
+.footnavsocial{
+    margin: 0 auto;
+}
+#latestnews ul li{
+    list-style: circle;
+}
+#latestnews ul li a{
+    display: block;
+    color: #101010;
+}
+#latestnews ul li a:hover{
+    text-decoration: none;
+}
+#footer hr{
+    width:50%;;
+}
+.inputform{
+    position: relative;
+    width: 216px;
+}
+.inputform input[type=email]{
+    direction: ltr;
+    padding: 10px 29px;
+    border-radius: 22px;
+    border: 2px solid #16a085;
+    color: #16a085;
+}
+.inputform i{
+    position: absolute;
+    left: -27px;
+    top: 15px;
+}
+#copyright{
+    color: #34495e;
+    font-size: 11px;
+    font-width:500;
+}
+.widget{
+    width: 100%;
+    /*min-height:175px;*/
+    margin-bottom: 35px;
+}
+.stripe-line{
+    background: url(images/stripe.png);
+    height: 12px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.widget-container{
+    background: #f5f3ed !important;
+    border-bottom-color: #83c495;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    box-shadow: 0 1px 3px 0 #b5b5b5;
+    -moz-box-shadow: 0 1px 3px 0 #b5b5b5;
+    -webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
+    border: 1px solid #DDD;
+    border-bottom: 4px solid #F88C00;
+}
+.widget-container img{
+    margin-left: 15px;
+    padding:25px 0px;
+}
+.widget-container h3{
+    font-size:25px;
+    padding: 5px 10px;
+}
+.widget-container ul{
+    float: right;
+    margin: 5px 30px;
+}
+.widget-container ul li{
+    list-style:circle;
+}
+.page_content{
+    width: 100%;
+    min-height: 400px;
+    background: #fff;
+    /*border:4px dashed #ecf0f1;*/
+}
+.title_bar{
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+.title_bar h1{
+    font-size: 28px;
+    padding: 15px 25px;
+    color:#2c3e50;
+}
+.title_bar a{
+    text-decoration: none;
+}
+.descript ul{
+    /*float: right;*/
+    padding-right: 15px;
+}
+.descript ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 10px;
+}
+#shareit h3{
+    font-size: 25px;
+    padding: 25px 0px;
+}
+#shareit ul li{
+    list-style:none;
+}
+.img_post img{
+    padding:25px 0px;
+}
+#post_content_text p{
+    /*direction: rtl;*/
+    text-align: justify;
+}
+#post_content_text {
+    padding-bottom: 50px;
+}
+.carousel-control{
+    color: #1abc9c !important;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, .6) !important;
+}
+.newscontent p{
+    text-align: justify !important;
+}
+
+#slider{
+    color: #fff !important;
+    text-shadow: 1px 1px #000;
+    text-style:bold;
+}
+#slider h3 {
+    text-align: center;
+    line-height: 20px;
+}
+#post_content_text blockquote{
+    quotes: none;
+    padding: 0px 70px;
+}
+.navbar > .container-fluid .navbar-brand{
+    margin-left: 0px !important;
+}
+#fotcop{
+    background-color: #ecf0f1;
+}
+
+.book_ax{
+    background: url("images/ibook_37.jpg");
+    min-height:771px;
+    position: relative;
+}
+.first_tb{
+    min-height: 165px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+.box{
+    display: inline-block;
+}
+.first_tb a img{
+    width: 82px;
+    height: 132px;
+    margin: 33px 10px;
+}
+/*.first_tb a img:hover{*/
+    /*width: 85px;*/
+    /*height: 132px;*/
+    /*margin: 33px 12px;*/
+    /*transition: 0.3s all ease-in-out ;*/
+    /*-moz-transition: 0.3s all ease-in-out ;*/
+    /*-webkit-transition: 0.3s all ease-in-out ;*/
+    /*-o-transition: 0.3s all ease-in-out ;*/
+/*}*/
+.first_tb a{
+    display: inline-block;
+}
+.boxx{
+    display: inline-block;
+    width: 19px;
+    height: 132px;
+}
+.secound_tb{
+    max-height: 165px;
+    position: absolute;
+    width: 100%;
+    top: 166px;
+}
+.secound_tb a{
+    display: inline-block;
+}
+.secound_tb a img{
+    width: 82px;
+    height: 132px;
+    margin: 17px 10px;
+}
+.third_tb{
+    max-height: 165px;
+    position: absolute;
+    width: 100%;
+    top: 311px;
+}
+.third_tb a{
+    display: inline-block;
+}
+.third_tb a img{
+    width: 82px;
+    height: 132px;
+    margin: 17px 10px;
+}
+.fourth_tb{
+    max-height: 165px;
+    position: absolute;
+    width: 100%;
+    top: 461px;
+}
+.fourth_tb a{
+    display: inline-block;
+}
+.fourth_tb a img{
+    width: 82px;
+    height: 132px;
+    margin: 17px 10px;
+}
+.fivth_tb{
+    max-height: 165px;
+    position: absolute;
+    width: 100%;
+    top: 608px;
+}
+.fivth_tb a {
+    display: inline-block;
+}
+.fivth_tb a img{
+    width: 82px;
+    height: 132px;
+    margin: 17px 10px;
+}
+.tooltipp + .tooltip > .tooltip-inner {
+    background-color: rgba(22, 160, 133,1.0);
+    color: #FFFFFF;
+    border: 2px solid rgba(44, 62, 80,1.0);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'iransans';
+    margin-top: -65px;
+}
+
+.tooltipp + .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 0px solid blue;
+}
+.dropdown-menu > .active > a{
+    color: #000 !important;
+    background: transparent !important;
+}
+.widget-container ul li label{
+    font-weight: 100;
+}
